@@ -113,7 +113,7 @@ public class testCli {
 	 }
 	 
 	 public void getMetrics(){
-
+		 // stub for sending metrics via rest
 			CredentialsProvider provider = new BasicCredentialsProvider();
 	    	UsernamePasswordCredentials credentials = new UsernamePasswordCredentials("jay.davis@appdynamics.com", "BigBlueM1x");
 			provider.setCredentials(AuthScope.ANY, credentials);
